@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 123079052}
   - component: {fileID: 123079051}
   - component: {fileID: 123079050}
+  - component: {fileID: 123079054}
   m_Layer: 0
   m_Name: Caja 4
   m_TagString: Untagged
@@ -172,6 +173,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &123079054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123079049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 1
+  controlador: {fileID: 1511187526}
 --- !u!1 &294114899
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +197,7 @@ GameObject:
   - component: {fileID: 294114902}
   - component: {fileID: 294114901}
   - component: {fileID: 294114900}
+  - component: {fileID: 294114904}
   m_Layer: 0
   m_Name: Caja 8
   m_TagString: Untagged
@@ -253,6 +268,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &294114904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294114899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 6
+  controlador: {fileID: 1511187526}
 --- !u!1 &298732733
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +292,7 @@ GameObject:
   - component: {fileID: 298732736}
   - component: {fileID: 298732735}
   - component: {fileID: 298732734}
+  - component: {fileID: 298732738}
   m_Layer: 0
   m_Name: Caja 9
   m_TagString: Untagged
@@ -334,6 +363,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &298732738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298732733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 1
+  controlador: {fileID: 1511187526}
 --- !u!1 &317318696
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +450,7 @@ GameObject:
   - component: {fileID: 374549328}
   - component: {fileID: 374549327}
   - component: {fileID: 374549326}
+  - component: {fileID: 374549330}
   m_Layer: 0
   m_Name: Caja 10
   m_TagString: Untagged
@@ -478,6 +521,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &374549330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 374549325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 0
+  controlador: {fileID: 1511187526}
 --- !u!1 &385624678
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +615,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 385624678}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 8.52, y: 2.66, z: -10.2}
+  m_LocalPosition: {x: 8.52, y: 2.66, z: -10.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -576,6 +632,7 @@ GameObject:
   - component: {fileID: 516425069}
   - component: {fileID: 516425068}
   - component: {fileID: 516425067}
+  - component: {fileID: 516425071}
   m_Layer: 0
   m_Name: Caja 6
   m_TagString: Untagged
@@ -646,6 +703,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &516425071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516425066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 6
+  controlador: {fileID: 1511187526}
 --- !u!1 &633645400
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +727,7 @@ GameObject:
   - component: {fileID: 633645403}
   - component: {fileID: 633645402}
   - component: {fileID: 633645401}
+  - component: {fileID: 633645405}
   m_Layer: 0
   m_Name: Caja 1
   m_TagString: Untagged
@@ -727,6 +798,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &633645405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 633645400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 0
+  controlador: {fileID: 1511187526}
 --- !u!1 &878630101
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +822,7 @@ GameObject:
   - component: {fileID: 878630104}
   - component: {fileID: 878630103}
   - component: {fileID: 878630102}
+  - component: {fileID: 878630106}
   m_Layer: 0
   m_Name: Caja 12
   m_TagString: Untagged
@@ -808,6 +893,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &878630106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878630101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 0
+  controlador: {fileID: 1511187526}
 --- !u!1 &975420280
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +917,7 @@ GameObject:
   - component: {fileID: 975420283}
   - component: {fileID: 975420282}
   - component: {fileID: 975420281}
+  - component: {fileID: 975420285}
   m_Layer: 0
   m_Name: Caja 2
   m_TagString: Untagged
@@ -889,6 +988,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &975420285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 975420280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 2
+  controlador: {fileID: 1511187526}
 --- !u!1 &1045706137
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,6 +1012,7 @@ GameObject:
   - component: {fileID: 1045706140}
   - component: {fileID: 1045706139}
   - component: {fileID: 1045706138}
+  - component: {fileID: 1045706142}
   m_Layer: 0
   m_Name: Caja 5
   m_TagString: Untagged
@@ -970,6 +1083,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1045706142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045706137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 3
+  controlador: {fileID: 1511187526}
 --- !u!1 &1396523210
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,6 +1107,7 @@ GameObject:
   - component: {fileID: 1396523213}
   - component: {fileID: 1396523212}
   - component: {fileID: 1396523211}
+  - component: {fileID: 1396523215}
   m_Layer: 0
   m_Name: Caja 7
   m_TagString: Untagged
@@ -1051,6 +1178,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1396523215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1396523210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 0
+  controlador: {fileID: 1511187526}
 --- !u!1 &1508618076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +1202,7 @@ GameObject:
   - component: {fileID: 1508618079}
   - component: {fileID: 1508618078}
   - component: {fileID: 1508618077}
+  - component: {fileID: 1508618081}
   m_Layer: 0
   m_Name: Caja 3
   m_TagString: Untagged
@@ -1132,6 +1273,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1508618081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508618076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 3
+  controlador: {fileID: 1511187526}
+--- !u!1 &1511187525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1511187527}
+  - component: {fileID: 1511187526}
+  m_Layer: 0
+  m_Name: Controlador De Cajas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1511187526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1511187525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521615acb5d9529438bab24035a9c296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cont: 0
+--- !u!4 &1511187527
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1511187525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1711630240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,6 +1338,7 @@ GameObject:
   - component: {fileID: 1711630243}
   - component: {fileID: 1711630242}
   - component: {fileID: 1711630241}
+  - component: {fileID: 1711630245}
   m_Layer: 0
   m_Name: Caja 11
   m_TagString: Untagged
@@ -1213,3 +1409,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1711630245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1711630240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b30ca2488b6594f9f3ffe2ca230da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableDeCaja: 2
+  controlador: {fileID: 1511187526}
